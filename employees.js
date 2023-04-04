@@ -20,6 +20,9 @@
 */
 
 //CODE HERE
+emp = []
+const employee = emp.push("Jacob") 
+console.log(employee)
 
 
 
@@ -84,6 +87,7 @@
 
 //CODE HERE
 
+let addEmployee =(emp)
 
 
 /*
@@ -98,6 +102,13 @@
 */
 
 //CODE HERE
+class Manager{
+    constructor(name, shifts, employees){
+    this.name = name
+    this.shifts = shifts
+    this.employees = employees
+  }
+}
 
 
 /*

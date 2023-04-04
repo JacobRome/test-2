@@ -57,7 +57,7 @@ const cart = [
 */
 
 //CODE HERE
-
+couponValue = []
 const cartTotal = couponValue.map(num => num * 1.006)
 
 //////////////////PROBLEM 3////////////////////
@@ -84,6 +84,7 @@ const cartTotal = couponValue.map(num => num * 1.006)
     TEXT ANSWER HERE
 
 */
+// ("the customer has bought 1 ps5, and 15 games")
 
 
 /*
@@ -92,3 +93,7 @@ const cartTotal = couponValue.map(num => num * 1.006)
 */
 
 //CODE HERE
+ const customer = customerCart()
+
+ customerCart.push(ps5, game1, game2)
+ console.log(customer)
