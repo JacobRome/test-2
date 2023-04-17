@@ -58,6 +58,7 @@ orderTime = (`7:03pm`)
 Customerid = (`575`)
 
 
+
 /*
     Call the `updateStatus` method on
     `firstTicket` passing in the string
@@ -65,7 +66,9 @@ Customerid = (`575`)
 */
 
 //CODE HERE
+const updateStatus = PaymentRequestUpdateEvent
 
- Ticket.updateStaus = (`cooking`)
+
+ Ticket.updateStatus = (`cooking`)
 
 console.log(Ticket)
