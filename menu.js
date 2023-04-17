@@ -32,6 +32,14 @@
 
 //CODE HERE
 
+const Pizza ={
+    name: 'meat lovers',
+    price: 7,
+    category: 'entree',
+    popularity: 100,
+    rating: 9,
+    tags: ['carnivore', 'protien-heavy']
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -43,7 +51,7 @@
 */
 
 //CODE HERE
-
+console.log(Pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -53,6 +61,8 @@
 */
 
 //CODE HERE
+console.log(Pizza.tags[1])
+
 
 
 /*
@@ -63,6 +73,8 @@
 */
 
 //CODE HERE
+const {price} = Pizza;
+console.log(price)
 
 
 /*
@@ -73,6 +85,8 @@
 */
 
 //CODE HERE
+const {category} = Pizza;
+console.log(category)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -89,6 +103,42 @@
 
 //CODE HERE
 
+const foodArr = [
+    { name: ' super Burger',
+    price: 12,
+    category: 'main course',
+    popularity: 50,
+    rating: 10,
+    tags: ['protien friendly', 'calorie heavy']},
+
+    { name: 'Calzone',
+    price: 10,
+    category: 'entree',
+    popularity: 75,
+    rating: 9.5,
+    tags: ['kid friendly', 'great with soup']},
+
+    { name: 'chicken noodle soup',
+    price: 7,
+    category: 'side',
+    popularity: 75,
+    rating: 8,
+    tags: ['pallet friendly', 'great for if your feeling ill']},
+
+    { name: 'French Fries',
+    price: 5,
+    category: 'side',
+    popularity: 100,
+    rating: 10,
+    tags: ['kid approved', 'side dish']},
+
+    { name: 'Quesadilla',
+    price: 6,
+    category: 'appetizer',
+    popularity: 75,
+    rating: 8,
+    tags: ['starter', 'shareable']}
+]
 
 
 //////////////////PROBLEM 4////////////////////
@@ -105,8 +155,11 @@
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const certainFood = foodArr.filter((checkTags) => {
+    return checkTags.tags.indexOf('starter') >= 0
+})
 
+console.log(certainFood)
 
 
 //////////////////PROBLEM 5////////////////////
