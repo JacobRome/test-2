@@ -53,6 +53,8 @@ class Ticket {
 
 //CODE HERE
 
+const firstTicket = new Ticket('pizza, bread, and soda')
+console.log(firstTicket.items)
 
 
 
