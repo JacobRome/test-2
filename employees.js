@@ -133,7 +133,7 @@ let manager = new Manager('Winston')
 */
 
 //CODE HERE
-Manager.getEmployees()
+manager.getEmployees()
 
 /*
     Call the `addEmployee` method on the 

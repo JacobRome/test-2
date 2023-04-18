@@ -202,7 +202,7 @@ console.log(certainFood)
 */
 
 //CODE HERE
-
+console.log(appetizers)
 
 /*
     Invoke the `filterByProperty` function passing
@@ -211,4 +211,5 @@ console.log(certainFood)
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+//CODE HERE 
+ foodArr.filterByProperty()

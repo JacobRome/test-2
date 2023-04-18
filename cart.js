@@ -37,7 +37,8 @@ const cart = [
 
  const summedPrice = cart.reduce(function(acc, elem){
     return acc + elem
- })
+ } ,0)
+
 
 
 
@@ -57,9 +58,9 @@ const cart = [
 */
 
 //CODE HERE
-couponValue = []
-const cartTotal = couponValue.map(num => num * 1.006)
-
+class calcFinalPrice{
+    
+}
 //////////////////PROBLEM 3////////////////////
 /*  
     In this problem, you'll create a model for 

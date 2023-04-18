@@ -52,10 +52,7 @@ class Ticket {
 */
 
 //CODE HERE
-let Ticket = (`firstTicket`)
-items = (`pizza, bread, soda`)
-orderTime = (`7:03pm`)
-Customerid = (`575`)
+
 
 
 
