@@ -149,3 +149,6 @@ console.log(deals)
 */
 
 //CODE HERE
+deals[1].desc = deals[1].desc.replace('The deal lasts until the end of March! ', 'The deal lasts until the end of April!')
+
+console.log(deals)
